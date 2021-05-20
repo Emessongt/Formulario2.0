@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #0174df url(./img/light-blue-background.jpg);
+    margin: 100px;
+}
+
+#container{    
+    margin: 0 auto;
+    background-color: rgba(300, 300, 300, 0.2);
+    border-radius: 20px;
+    border: 1px solid #00b0ff;
+    margin-top: 120px;
+    text-align: center;
+    width: 450px;
+    height: 480px;
+    margin-top: -60px;
+    margin-bottom: 20px;    
+}
+
+input{    
+    height: 40px;
+    width: 87%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 2px solid #00b0ff;  
+    margin-top: 35px;  
+    outline: 0;    
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:focus{
+    border-color:#7834f7 !important;
+}
+
+input.submit{
+    padding: 5px 20px;
+    height: 45px;
+    border-radius: 30px;
+    width: 35%;
+    height: 45px;
+    background-color: #00b0ff;
+    border: 1px solid #00b0ff;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 7px; 
+}
+
+#titulo{
+    text-align: center;
+    color: #424242;
+}
+
+input.submit:hover{
+    color: #7834f7;
+    border-color: #7834f7;
+}
+
+#texto{
+    color: #fff;
+    margin-top: 50px;
+}
